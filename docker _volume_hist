@@ -1,0 +1,142 @@
+1  docker inspect bridge 
+    2  docker network create testing 
+    3  cd /var/lib/docker/network/files/
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd ..
+    8  docker inspect testing 
+    9  docker inspect testing 
+   10  docker volume prune 
+   11  docker inspect testing 
+   12  docker run -d --name devtest --mount source=testing,terget=/app ngnix:latest
+   13  docker run -d --name devtest --mount source=testing,target=/app ngnix:latest
+   14  docker log
+   15  docker login 
+   16  docker run -d --name devtest --mount source=testing,target=/app ngnix:latest
+   17  docker run -d --name devtest --mount source=testing,target=/app ngnix
+   18  docker pull  ngnix:latest
+   19  docker run ngnix
+   20  docker pull  ngnix:latest
+   21  docker pull  ngni
+   22  docker pull  ngnx
+   23  docker pull  ngnix
+   24  docker pull  nginx
+   25  docker run -d --name devtest --mount source=testing,target=/app nginx
+   26  docker ps 
+   27  ls
+   28  cd network/files/
+   29  ls
+   30  cd ../../volumes/testing/
+   31  ls
+   32  cd ..
+   33  ;s
+   34  ls
+   35  docker ps 
+   36  docker exec devtest bash
+   37  docker exec -it devtest bash
+   38  docker ps 
+   39  ls
+   40  cd testing/
+   41  ls
+   42  cd _data/
+   43  ls
+   44  docker ps 
+   45  dockerk stop asafafa 
+   46  dockerk stop nginx
+   47  docker stop nginx
+   48  docker stop devtest 
+   49  docker ps 
+   50  ls
+   51  docker rmi nginx:latest 
+   52  ls
+   53  docker ps
+   54  docker start devtest 
+   55  docker ps
+   56  docker rmi devtest
+   57  docker rmi daf0a395f2e2
+   58  docker rmi nginx:latest 
+   59  docker rmi nginx:latest  --force 
+   60  ls
+   61  cd //
+   62  ;s
+   63  ls
+   64  ls
+   65  cd 
+   66  ls
+   67  cd /var/lib/docker/volumes/
+   68  ls
+   69  cd testing/
+   70  ls
+   71  cd _data/
+   72  ls
+   73  cat asafafa 
+   74  docker volume create vol
+   75  cd ../..
+   76  ls
+   77  docker run -d --name devtest1 -v vol:/app nginx
+   78  docker run -d --name devtest1 -v vol:/app nginx:latest
+   79  docker rmi devtest1
+   80  docker ps 
+   81  docker stop  devtest*
+   82  docker stop  devtest devtest1 
+   83  docker rmi 7209a65f66e8 daf0a395f2e2
+   84  docker ps 
+   85  docker run -d --name devtest1 -v vol:/app nginx:latest
+   86  docker run -d --name devtest2 -v vol:/app nginx:latest
+   87  docker ps 
+   88  ls
+   89  docker exec -it devtest2 bash
+   90  docker ps 
+   91  docker stop  devtest2 
+   92  ls
+   93  docker run --name temp1 --mount type-tempfs, destination=/appp,tempfs-1770 nginx
+   94  docker run --name temp1 --mount type=tempfs, destination=/appp,tempfs-1770 nginx
+   95  docker run --name temp1 --mount type=tempfs,destination=/appp,tempfs-1770 nginx
+   96  docker run --name temp1 --mount type=tmpfs,destination=/appp,tmpfs-1770 nginx
+   97  docker run --name temp1 --mount type=tmpfs, destination=/appp,tmpfs-1770 nginx
+   98  docker run --name temp1 --mount type=tmpfs,destination=/appp,tmpfs-1770 nginx
+   99  docker run --name temp1 --mount type=tmpfs,destination=/appp,tmpfs=1770 nginx
+  100  docker run --name temp1 --mount type=tmpfs, destination=/appp,tmpfs=1770 nginx
+  101  docker run --name temp1 --mount type=tmpfs, destination=/appp, tmpfs=1770 nginx
+  102  docker run --name temp1 --mount type=tmpfs, destination=/appp, tmpfs=17 nginx
+  103  docker run --name temp1 --mount type=tmpfs, destination=/app  nginx
+  104  docker run --name temp1 --mount type=tmpfs,destination=/app  nginx
+  105  docker run -=d --name temp1 --mount type=tmpfs,destination=/app  nginx
+  106  docker run -d --name temp1 --mount type=tmpfs,destination=/app  nginx
+  107  docker run -d --name temp2 --mount type=tmpfs,destination=/app  nginx
+  108  docker ps 
+  109  free -h
+  110  echo 3 >>/proc/sys/vm/drop_caches 
+  111  echo 3 >>/proc/sys/vm/drop_caches 
+  112  whoami 
+  113  whoami \
+  114  echo 3 >>/proc/sys/vm/drop_caches 
+  115  free -h
+  116  docker inspect temp2
+  117  docker inspect temp2
+  118  docker inspect temp2 |grep -i mount
+  119  docker inspect temp2 --format 
+  120  docker inspect temp2 --format MOunt
+  121  docker inspect temp2 --format Mount
+  122  docker ps 
+  123  docker stop temp2 
+  124  docker ps
+  125  docker image
+  126  docker images 
+  127  free- h
+  128  free -h
+  129  docker run  -d --name ubu  --mount  type=bind,source=/srv,target=/app ubuntu 
+  130  docker ps
+  131  docker run  -d --name ubu  --mount  type=bind,source=/srv,target=/app ubuntu -it
+  132  docker run  -d --name ubu1  --mount  type=bind,source=/srv,target=/app ubuntu -it
+  133  docker run  -d --name ubu2  --mount  type=bind,source=/srv,target=/app ubuntu -it bash 
+  134  docker run  -d -it  --name ubu2  --mount  type=bind,source=/srv,target=/app ubuntu bash
+  135  docker run  -d -it  --name ubu3  --mount  type=bind,source=/srv,target=/app ubuntu bash
+  136  docker ps 
+  137  docker exec -it ubu3 bash
+  138  cd /srv/
+  139  ks
+  140  ls
+  141  host
+  142  history 
